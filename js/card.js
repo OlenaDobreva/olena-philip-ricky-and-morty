@@ -28,8 +28,8 @@ export function createCharacterCard(data) {
 }
 
 export function clearAllCards() {
-  // clears all cards
   const cardsContainer = document.querySelector("[data-js='card-container']");
+  // while there are still cards in the container, remove the first card
   while (cardsContainer.firstChild) {
     cardsContainer.removeChild(cardsContainer.firstChild);
   }
