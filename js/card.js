@@ -16,7 +16,7 @@ export function createCharacterCard(data) {
         <dl class="card__info">
             <dt class="card__info-title">${data.status}</dt>
             <dd class="card__info-description">Alive</dd>
-            <dt class="card__info-title">Type}</dt>
+            <dt class="card__info-title">Type</dt>
             <dd class="card__info-description"></dd>
             <dt class="card__info-title">Occurances</dt>
             <dd class="card__info-description">${data.episode.length}</dd>
