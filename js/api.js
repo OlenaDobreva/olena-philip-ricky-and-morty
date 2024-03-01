@@ -1,5 +1,5 @@
 export function fetchCharactersByName(searchQuery) {
-  return fetch(`https://rickandmortyapi.com/api/character?name=${searchQuery}`)
+  return fetch(`https://rickandmortyapi.com/api/character?name=${searchQuery.toString().toLowerCase()}`)
     .then((response) => response.json())
     .catch(error => console.log("error:", error))
 }
